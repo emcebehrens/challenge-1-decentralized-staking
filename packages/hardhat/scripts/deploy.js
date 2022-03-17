@@ -170,6 +170,7 @@ const tenderlyVerify = async ({ contractName, contractAddress }) => {
     "mumbai",
     "xDai",
     "POA",
+    "kiln",
   ];
   let targetNetwork = process.env.HARDHAT_NETWORK || config.defaultNetwork;
 

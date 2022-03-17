@@ -38,6 +38,14 @@ export const NETWORKS = {
     faucet: "https://faucet.rinkeby.io/",
     blockExplorer: "https://rinkeby.etherscan.io/",
   },
+  kiln: {
+    name: "kiln",
+    color: "#e0d068",
+    chainId: 1337802,
+    rpcUrl: `https://rpc.kiln.themerge.dev`,
+    faucet: "https://faucet.kiln.themerge.dev",
+    blockExplorer: "https://explorer.kiln.themerge.dev",
+  },
   ropsten: {
     name: "ropsten",
     color: "#F60D09",
